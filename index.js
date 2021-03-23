@@ -1,0 +1,36 @@
+console.log("Hello Winc Academy")
+    let name = "Samantha";
+    console.log(name);
+    // 6. Bij het gebruik van 'if' wordt er een andere code aangeroepen als er sprake is van een afwijkende waarde, volgens mij lukt dit alleen met getallen? 
+    var x = 4;
+    var y = 4;
+    var z = x + y;  
+    console.log(z);
+    document.getElementById("numbers").innerHTML = z;
+    var x = "4";
+    var y = "4";
+    var z = x + y;
+    console.log(z);
+    document.getElementById("strings").innerHTML = z;
+    var x = 5;
+    var y = 7;
+    var z = x - y;
+    console.log(z);
+    document.getElementById("subtraction").innerHTML = z;
+    var x = 2;
+    var y = 6;
+    var z = x * y;
+    console.log(z);
+    document.getElementById("multiplication").innerHTML = z;
+    var x = 6;
+    var y = 2;
+    var z = x / y;
+    console.log(z);
+    document.getElementById("division").innerHTML = z;
+    var x = 3;
+    var y = 33;
+    var z = x % y;
+    console.log(z);
+    document.getElementById("modulus").innerHTML = z;
+    let age = 32;
+    console.log(age);
